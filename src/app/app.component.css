@@ -1,0 +1,35 @@
+.content {
+    border: 1px solid blue;
+    margin: auto 5%;
+    padding-top: 2%;
+}
+
+.form-content {
+    margin: auto 25%;
+    width: 50%;
+    border-radius: 6px;
+    padding: 2%;
+    background-color: rgb(179, 237, 236);
+}
+
+.form-group {
+    margin-bottom: 2%;
+}
+
+button {
+    background-color: lightgreen;
+    color: black;
+    border: none;
+}
+
+button:hover {
+    background-color: lightgreen;
+    color: black;
+    border: none;
+}
+
+.article-content {
+    border: 1px solid green;
+    margin: 3% 20%;
+    padding: 1%;
+}

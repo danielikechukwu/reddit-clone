@@ -1,0 +1,21 @@
+.article {
+    border: 1px solid pink;
+    display: flex;
+}
+
+.statistic {
+    border: 1px solid blue;
+    width: 20%;
+    border-radius: 6px;
+}
+
+.article-activities {
+    border: 1px solid green;
+    flex: 1;
+    margin-left: 1%;
+}
+
+#vote-point {
+    text-transform: capitalize !important;
+}
+

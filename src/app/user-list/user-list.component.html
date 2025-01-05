@@ -1,0 +1,9 @@
+<div>
+    <ul>
+        @for (name of names; track name) {
+        <app-user-item [name]="name"></app-user-item>
+        } @empty {
+        <li>There are no items</li>
+        }
+    </ul>
+</div>

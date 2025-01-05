@@ -1,0 +1,35 @@
+<div class="content">
+
+  <div class="form-content">
+    <p style="font-weight: bolder;">Add a Link</p>
+
+    <form [formGroup]="addLinkForm" (ngSubmit)="submitAddLinkForm()">
+
+      <div class="form-group">
+        <label for="title"><strong>Title:</strong></label>
+        <input type="text" class="form-control" formControlName="title" id="title" aria-describedby="title"
+          placeholder="Enter title">
+      </div>
+
+      <div class="form-group">
+        <label for="link"><strong>Link:</strong></label>
+        <input type="url" class="form-control" formControlName="link" id="link" placeholder="Enter link">
+      </div>
+
+      <button type="submit" class="btn btn-primary" style="margin-top: 2%;">Submit Link</button>
+
+    </form>
+  </div>
+
+  <div class="article-content">
+    <app-article></app-article>
+  </div>
+
+
+  <!-- <app-user-item></app-user-item>
+
+  <app-user-list></app-user-list> -->
+
+</div>
+
+<!-- <router-outlet></router-outlet> -->
