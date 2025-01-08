@@ -20,7 +20,7 @@ interface LinkForm {
     UserListComponent,
     ArticleComponent,
     MatButtonModule,
-    ReactiveFormsModule,
+    ReactiveFormsModule
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
